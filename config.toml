@@ -363,13 +363,13 @@ enableGitInfo = false
   languageCode = "en-us"
 
 # Uncomment the lines below to configure your website in a second language.
-#[languages.zh]
-#  languageCode = "zh-Hans"
-#  title = "Chinese website title..."
-#  [languages.zh.params]
-#    name = "Your name in Chinese..."
-#    role = "Your role in Chinese..."
-#  [[languages.zh.menu.main]]
-#    name = "Wo"
-#    url = "#about"
-#    weight = 1
+[languages.zh]
+  languageCode = "zh-Hans"
+  title = "春秋斋"
+  [languages.zh.params]
+    name = "夏时制"
+    role = ""
+  [[languages.zh.menu.main]]
+    name = "主页"
+    url = "#about"
+    weight = 1
